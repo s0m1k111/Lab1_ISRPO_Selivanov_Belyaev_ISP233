@@ -11,9 +11,9 @@ string answer = Console.ReadLine();
 
 if (answer == "y" || answer == "Y")
 {
-    Console.WriteLine("Продолжаем работу...");
+    Console.WriteLine("Продолжаем работу");
 }
 else
 {
-    Console.WriteLine("Выход из программы.");
+    Console.WriteLine("Выход из программы");
 }
