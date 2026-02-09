@@ -1,7 +1,7 @@
 ﻿Console.Write("Введите ваше имя: ");
 string name = Console.ReadLine();
 
-Console.WriteLine($"Привет, {name}!");
+Console.WriteLine($"Привет, {name}");
 
 string[] days = { "Воскресенье", "Понедельник", "Вторник", "Среда","Четверг", "Пятница", "Суббота" };
 Console.WriteLine($"Сегодня {days[(int)DateTime.Now.DayOfWeek]}");
